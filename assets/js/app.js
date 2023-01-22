@@ -1,6 +1,6 @@
 // comentarios con doble barra
 console.log('Hola mundo')
-
+alert('Pausa a la ejecución')
 /* forma larga de declarar bariables
 let a = 10;
 let b = 10;
@@ -39,3 +39,5 @@ console.log('  ');
 // imprimir variables en una tabla
 console.log('%c Mis variables en una tabla', 'color: blue; font-weight: bold');
 console.table({a, b, c, d, e, f});
+
+var miNombre = 'Pablo';
