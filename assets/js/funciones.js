@@ -15,7 +15,27 @@ const saludarFlecha = ( nombre ) => {
     console.log('Saludar con flecha ', nombre);
 }
 
+// forma larga 
+const sumar = ( a, b ) => {
+    return a + b;
+}
+
+// forma corta 
+const sumar2 = ( a, b ) => a + b;
+
+// forma larga
+function getAleatorio() {
+    return Math.random();
+}
+
+// forma corta
+const getAleatorio2 = () => Math.random();
+
 saludar1();
 saludar( 'Romina' );
 saludar2( 'Pablo' );
-saludarFlecha( 'Sophia' )
+saludarFlecha( 'Sophia' );
+console.log(sumar( 7, 34 ));
+console.log(sumar2( 7, 34 ));
+console.log( getAleatorio() );
+console.log( getAleatorio2() );
